@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Portafolio JuanDGonzalezH</title>
+  <meta name="description" content="Portafolio de JuanDGonzalezH, entusiasta y creativo developer.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Portafolio de un entusiasta por la tecnología en HTML">
+  <meta property="og:image" content="utiles/juanch0.jpg">
+  <meta property="og:image:alt" content="Una fotografía de JuanDGonzalezH">
+
+  <!-- SEO -->
+  <link rel="alternate" href="/portafolio.html" hreflang="en">
+  <link rel="canonical" href="/portafolio.html">
+  <meta name="robots" content="index, follow">
+
+  <!-- Estética -->
+  <meta name="theme-color" content="#FFB6C1">
+  <link rel="icon" type="image/png" href="./Assens/iconoPortafo.png">
+
+  <link rel="stylesheet" href="./estilos/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <img src="./Assens/iconoPortafo.png" alt="logo portafolio" class="logo">
+            <h1 class="neon-text">Portafolio JuanDGonzalezH</h1>
+        </div>
+        <nav>
+            <ul>                
+                <li><a class="neon-hover" href="index.html">Presentacion</a></li>
+                <li><a class="neon-hover" href="proyectos.html">Proyectos</a></li>
+                <li><a class="neon-hover" href="sobremi.html">Sobre Mi</a></li>
+                <li><a class="neon-hover" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+      <h2 class="neon-text">Formulario de contacto</h2>
+        <form class="formulario" method="post" action="/"><br>
+            <fieldset>
+            <legend>Información personal</legend>
+
+            <label>Nombre
+                <input type="text" name="name" placeholder="Juan David Gonzalez" required>
+            </label>
+
+            <label>Email
+                <input type="email" name="email" placeholder="usuario@dominio.co" required>
+            </label>
+
+            <label>telefono
+                <input type="tel" name="phone" placeholder="+573002002222" required pattern="[0-9]{9}">
+            </label>
+
+            <label for="why">¿Por qué quieres contactar?
+                <select name="why" id="why">
+                <option value="1">Trabajo</option>
+                <option value="2">Más información</option>
+                <option value="3">Dudas</option>
+                </select>
+            </label>
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section> <br> <br> <br>
+
+    <footer>
+        <h3 class="neon-text">medios de contacto</h3><br>
+
+        <a 
+            target="_blank" 
+            rel="noreferrer" 
+            href="mailto:juanch052048@gmail.com">
+            <button class="image-button">
+            <img 
+            src="./Assens/gmail.png" 
+            alt="button gmail">
+            </button>
+        </a>
+
+        <a 
+            target="_blank" 
+            rel="noreferrer" 
+            href="https://wa.me/3004527640?text=Hola_bengo_de_tu_portafolio">
+
+            <button class="image-button">
+                <img 
+                src="./Assens/whatsapp.png" 
+                alt="button whatsapp">
+            </button>
+        </a>
+
+        <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/Mylisuthy" >
+
+            <button class="image-button">
+                <img 
+                src="./Assens/github-logo.png" 
+                href="https://github.com/Mylisuthy" 
+                alt="button github"
+                >
+            </button>
+        </a>
+
+        <a
+            target="_blank"
+            rel="noreferrer" 
+            href="https://www.instagram.com/juanch0pk/"
+            >
+            <button class="image-button">
+                <img 
+                src="./Assens/instagram.png" 
+                alt="boton instagram" 
+                >
+            </button>
+        </a>
+    </footer>
+</body>
+</html>
