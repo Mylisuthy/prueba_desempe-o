@@ -1,6 +1,6 @@
 # Project POTAFOLIO JuanDGonzalezH
 
-este proyecto de portafolio fue creado usando una estructura semantica de HTML y estilos del CSS en una carpeta aparte con imagenes alusivas y bien escaladas,  
+este proyecto de portafolio fue creado usando una estructura semantica de HTML y estilos del CSS en una carpeta aparte con imagenes alusivas y bien escaladas.
 se utilizaron etiquetas, llamados y estilos animados para mejorar el aspecto visual e interactivo con el usuario.
 
 # como se navega por el sitio
